@@ -53,7 +53,7 @@ void main()
 
         default:
         {
-            printf("Exiting.....");
+            printf("Invalid input");
             break;
         }
         }
@@ -105,7 +105,7 @@ void display(){
     int i;
     struct node *ptr;
     ptr = head;
-    if (ptr = NULL)
+    if (ptr == NULL)
     {
         printf("Stack is empty\n");
     }
